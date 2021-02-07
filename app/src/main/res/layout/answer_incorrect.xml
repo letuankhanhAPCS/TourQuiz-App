@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#EDE6D9">
+        <TextView
+            android:id="@+id/textView_messageIncorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="You wrong!"
+            android:textColor="#E31A1E"
+            android:textSize="50dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#97D1D1">
+        <Button
+            android:id="@+id/button_refresh"
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="@android:dimen/thumbnail_height"
+            android:background="@drawable/ic_baseline_refresh_24"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickPlayAgain"/>
+    </RelativeLayout>
+</LinearLayout>

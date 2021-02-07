@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_myCollection"
+        android:icon="@drawable/my_collection"
+        android:title="My collection"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="My collection"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_direction"
+        android:icon="@drawable/ic_baseline_directions_24"
+        android:title="My collection"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/go_to_map"
+        android:title="My collection"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">tourQuiz</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="keyboards">
+        <item>x,d,i,a,h,t,o,c,l,n,p,k</item>
+        <item>n,e,a,t,h,o,g,d,u,c,b,r</item>
+        <item>c,k,o,b,e,l,t,h,g,a,n,r</item>
+        <item>p,h,o,d,i,b,a,n,g,u,y,e</item>
+        <item>c,d,a,i,m,u,o,h,k,n,s,t</item>
+        <item>x,y,t,p,i,h,o,k,d,b,e,c</item>
+        <item>c,u,g,k,t,h,i,o,e,r,a,n</item>
+        <item>n,e,a,r,o,b,g,h,q,t,c,u</item>
+        <item>v,p,a,k,t,r,e,l,n,c,m,d</item>
+        <item>h,a,n,i,p,e,u,x,l,r,o,t</item>
+    </string-array>
+</resources>
